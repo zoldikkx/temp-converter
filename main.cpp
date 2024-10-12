@@ -44,7 +44,7 @@ int main() {
 
         } else if (choice != "1" && choice != "2") {
             cout << "Enter a valid choice." << endl;
-            cout << "Press enter to restart...";
+            cout << "Press enter to restart ...";
             cin.ignore();
             cin.get();
             clearConsole();
